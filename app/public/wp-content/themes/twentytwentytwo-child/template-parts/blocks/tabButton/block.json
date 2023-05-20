@@ -1,0 +1,13 @@
+{
+    "name": "acf/tabButton",
+    "title": "Tab Button",
+    "description": "About, Contact 페이지에 사용되는 탭 버튼입니다.",
+    "category": "design",
+    "keywords": ["button", "tab button", "버튼", "탭버튼"],
+    "icon_url": "dashicons-button",
+    "apiVersion": 2,
+    "acf": {
+        "renderTemplate": "./tabButton.php",
+        "mode": "preview"
+    }
+}

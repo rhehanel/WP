@@ -1,0 +1,28 @@
+{
+    "name": "gallery-styles",
+    "version": "1.1.0",
+    "description": "Additional Styles for the WordPress core/gallery.",
+    "author": "kometschuh",
+    "license": "GPL-2.0-or-later",
+    "main": "build/index.js",
+    "scripts": {
+        "build": "wp-scripts build",
+        "format:js": "wp-scripts format-js",
+        "lint:css": "wp-scripts lint-style",
+        "lint:js": "wp-scripts lint-js",
+        "start": "wp-scripts start",
+        "packages-update": "wp-scripts packages-update"
+    },
+    "dependencies": {
+        "@wordpress/block-editor": "^12.0.0",
+        "@wordpress/blocks": "^12.9.0",
+        "@wordpress/i18n": "^4.32.0",
+        "@wordpress/block-library": "^5.00.0",
+        "@wordpress/icons": "^5.00.0",
+        "@wordpress/data": "^9.2.0"
+
+    },
+    "devDependencies": {
+        "@wordpress/scripts": "^26.3.0"
+    }
+}

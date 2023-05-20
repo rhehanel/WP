@@ -1,0 +1,13 @@
+{
+    "name": "acf/projectGallery",
+    "title": "Project Gallery",
+    "description": "Project 페이지의 포스트에 사용되는 슬라이드 갤러리 블럭입니다.",
+    "category": "media",
+    "keywords": ["Gallery", "Project Gallery", "갤러리", "이미지 슬라이드", "슬라이더", "slider"],
+    "icon_url": "dashicons-format-gallery",
+    "apiVersion": 2,
+    "acf": {
+        "renderTemplate": "./projectGallery.php",
+        "mode": "preview"
+    }
+}

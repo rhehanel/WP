@@ -1,0 +1,13 @@
+{
+    "name": "acf/projectfilter",
+    "title": "Project filter",
+    "description": "필터링된 프로젝트가 나타나는 블럭입니다.",
+    "category": "widget",
+    "keywords": ["projects search", "projects filter", "projects", "filter"],
+    "icon": "search",
+    "apiVersion": 2,
+    "acf": {
+        "renderTemplate": "./projectFilter.php",
+        "mode": "preview"
+    }
+}

@@ -1,0 +1,13 @@
+{
+    "name": "acf/maincover",
+    "title": "Main Cover",
+    "description": "홈페이지 메인에 사용되는 배경 이미지 Cover입니다.",
+    "category": "media",
+    "keywords": ["cover", "커버", "메인", "홈페이지", "이미지", "배경"],
+    "icon_url": "dashicons-format-image",
+    "apiVersion": 2,
+    "acf": {
+        "renderTemplate": "./mainCover.php",
+        "mode": "preview"
+    }
+}
