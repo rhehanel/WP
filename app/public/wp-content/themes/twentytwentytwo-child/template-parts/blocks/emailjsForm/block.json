@@ -1,0 +1,13 @@
+{
+    "name": "acf/emailjsform",
+    "title": "EmailJS From",
+    "description": "Contact 페이지의 연락 폼입니다. EmailJS를 사용했습니다.",
+    "category": "design",
+    "keywords": ["form", "EmailJS form", "contact", "contact form" ],
+    "icon_url": "format-aside",
+    "apiVersion": 2,
+    "acf": {
+        "renderTemplate": "./emailjsForm.php",
+        "mode": "preview"
+    }
+}

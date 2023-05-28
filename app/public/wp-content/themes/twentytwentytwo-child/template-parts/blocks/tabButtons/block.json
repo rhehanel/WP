@@ -1,0 +1,13 @@
+{
+    "name": "acf/tabbuttons",
+    "title": "Tab Buttons",
+    "description": "About, Contact 페이지에서 모바일 탭을 구현하기 위한 버튼 리스트 입니다.",
+    "category": "design",
+    "keywords": ["about", "contact", "group", "button", "buttons", "tab" ],
+    "icon_url": "dashicons-columns",
+    "apiVersion": 2,
+    "acf": {
+        "renderTemplate": "./tabButtons.php",
+        "mode": "preview"
+    }
+}

@@ -1,0 +1,13 @@
+{
+    "name": "acf/newsinfo",
+    "title": "News Info Block",
+    "description": "News 포스트의 정보를 입력하는 block입니다.",
+    "category": "design",
+    "keywords": ["news", "info", "news info" ],
+    "icon_url": "dashicons-columns",
+    "apiVersion": 2,
+    "acf": {
+        "renderTemplate": "./newsInfo.php",
+        "mode": "preview"
+    }
+}

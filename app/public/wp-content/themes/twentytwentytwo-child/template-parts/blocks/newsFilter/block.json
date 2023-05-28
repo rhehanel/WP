@@ -1,0 +1,13 @@
+{
+    "name": "acf/newsfilter",
+    "title": "News filter",
+    "description": "필터링된 뉴스 포스트가 나타나는 블럭입니다.",
+    "category": "widget",
+    "keywords": ["news search", "news filter", "news", "filter"],
+    "icon": "search",
+    "apiVersion": 2,
+    "acf": {
+        "renderTemplate": "./newsFilter.php",
+        "mode": "preview"
+    }
+}

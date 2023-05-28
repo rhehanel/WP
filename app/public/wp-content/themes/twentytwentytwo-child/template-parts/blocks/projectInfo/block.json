@@ -1,0 +1,13 @@
+{
+    "name": "acf/projectinfo",
+    "title": "Project Info Block",
+    "description": "Project 포스트의 정보를 입력하는 block입니다.",
+    "category": "design",
+    "keywords": ["project", "info", "project info" ],
+    "icon_url": "dashicons-columns",
+    "apiVersion": 2,
+    "acf": {
+        "renderTemplate": "./projectInfo.php",
+        "mode": "preview"
+    }
+}

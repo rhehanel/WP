@@ -14,6 +14,13 @@ function acf_init_block_types(){
 	if(function_exists('register_block_type')){
 		register_block_type(get_template_directory() . "/template-parts/blocks/mainCover/block.json");
 		register_block_type(get_template_directory() . "/template-parts/blocks/projectFilter/block.json");
+		register_block_type(get_template_directory() . "/template-parts/blocks/newsFilter/block.json");
+		register_block_type(get_template_directory() . "/template-parts/blocks/customColums/block.json");
+		register_block_type(get_template_directory() . "/template-parts/blocks/tabGroup/block.json");
+		register_block_type(get_template_directory() . "/template-parts/blocks/tabButtons/block.json");
+		register_block_type(get_template_directory() . "/template-parts/blocks/emailjsForm/block.json");
+		register_block_type(get_template_directory() . "/template-parts/blocks/projectInfo/block.json");
+		register_block_type(get_template_directory() . "/template-parts/blocks/newsInfo/block.json");
 	}
 }
 
@@ -25,6 +32,17 @@ if (function_exists( 'acf_add_options_page' ) ){
 		'show_in_graphql' => true,
 		'icon_url' => 'dashicons-menu'
 	));
+}
+
+function get_randomp() { 
+    $args = array('post_type'=>'photo', 'orderby'=>'rand', 'posts_per_page'=>'1'); 
+    $photos = new WP_Query($args); // Posts set to variable
+
+    $photo = current($photos); // Get first, and only, post
+
+    wp_reset_postdata(); // Reset posts
+
+    return $photo->ID; // Return ID from post object
 }
 
 

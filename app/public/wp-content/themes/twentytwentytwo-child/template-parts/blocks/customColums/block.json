@@ -1,0 +1,13 @@
+{
+    "name": "acf/customcolums",
+    "title": "Custom Columns",
+    "description": "About과 Contact 페이지를 위한 Column입니다.",
+    "category": "design",
+    "keywords": ["about", "contact", "custom", "columns", "column" ],
+    "icon_url": "dashicons-columns",
+    "apiVersion": 2,
+    "acf": {
+        "renderTemplate": "./customColums.php",
+        "mode": "preview"
+    }
+}

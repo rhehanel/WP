@@ -1,0 +1,13 @@
+{
+    "name": "acf/tabgroup",
+    "title": "Tab Group",
+    "description": "About, Contact 페이지를 위한 tab 그룹입니다..",
+    "category": "design",
+    "keywords": ["about", "contact", "group", "tab" ],
+    "icon_url": "dashicons-columns",
+    "apiVersion": 2,
+    "acf": {
+        "renderTemplate": "./tabGroup.php",
+        "mode": "preview"
+    }
+}
